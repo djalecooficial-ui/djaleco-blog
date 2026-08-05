@@ -134,6 +134,24 @@ main {
   color: var(--pink);
 }
 
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 15px;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.post-content th {
+  background: #faf7f8;
+}
+
 .site-footer {
   text-align: center;
   padding: 24px;
